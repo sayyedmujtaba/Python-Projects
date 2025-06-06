@@ -24,6 +24,7 @@ while True:
     if user_in == computer_in:
         print("It's a tie!")
         ties += 1
+    # The user wins if they choose rock against scissors, paper against rock, or scissors against paper else the computer wins
     elif (user_in == 'rock' and computer_in == 'scissors') or (user_in == 'paper' and computer_in == 'rock') or (user_in == 'scissors' and computer_in == 'paper'):
         print(colored("You win!", "green"))
         user_score += 1
@@ -32,4 +33,5 @@ while True:
         computer_score += 1
     rounds += 1
 
+# Display the scores after the game ends
 print(f"Scores:\nUser: {user_score}\nComputer: {computer_score}\nTies: {ties}\nRounds: {rounds}")

@@ -9,7 +9,7 @@ rounds = 0
 choices = ['rock', 'paper', 'scissors']
 
 while True:
-    user_in = input(colored("Enter rock, paper, or scissors (or 'exit' to quit): ", "yellow")).lower()
+    user_in = input(coloredk("Enter rock, paper, or scissors (or 'exit' to quit): ", "yellow")).lower()
     if user_in == 'exit':
         print("Exiting the game.")
         break

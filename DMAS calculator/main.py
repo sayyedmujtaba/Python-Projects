@@ -6,7 +6,7 @@ while True:
     expression = input("\nWrite an input: ")
     if expression == "q":
         print("Quitting...")
-        time.sleep(1) # will delay the next line by 1 second
+        time.sleep(0.5) # will delay the next line by 1 second
         print("Goodbye!")
         break
     try:

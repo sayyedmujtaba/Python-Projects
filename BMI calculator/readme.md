@@ -17,7 +17,7 @@ A simple Python script to calculate your **Body Mass Index (BMI)** and tell you 
 ## Usage
 
 ```bash
-python bmi_calculator.py
+python main.py
 ```
 
 **Example:**

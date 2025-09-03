@@ -15,7 +15,7 @@ On each attempt, the program provides hints (`Too high!` / `Too low!`) until the
 ---
 
 ## 🚀 How to Run
-1. Make sure you have **Python 3.x** installed on your system.
+1. Make sure you have **Python 3.8** (or later) installed on your system.
 2. Save the code in a file named `guessing_game.py`.
 3. Open a terminal/command prompt in the project folder.
 4. Run the program:
